@@ -17,21 +17,21 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 * Logistic Regression Model(Training): 
 * OVERALL ACCURACY : .952
   * (Healthy)
-  * Precision : 1
-  * recall : .99
+    * Precision : 1
+    * recall : .99
   * (At-Risk)
-  * Precision : .85
-  * Recall : .91
+    * Precision : .85
+    * Recall : .91
 
 
 * Logistic Regression Model(Resampled):
 * OVERALL ACCURACY : .994
   * (Healthy)
-  * Precision : 1
-  * Recall : .99
+    * Precision : 1
+    * Recall : .99
   * (At-Risk)
-  * Precision : .84
-  * Recall : .99
+    * Precision : .84
+    * Recall : .99
 
 ## Summary
 
