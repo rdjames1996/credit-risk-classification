@@ -14,13 +14,24 @@ In this section, describe the analysis you completed for the machine learning mo
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Logistic Regression Model(Training): 
+  OVERALL ACCURACY : .952
+  (Healthy)
+  * Precision : 1
+  * recall : .99
+  (At-Risk)
+  * Precision : .85
+  * Recall : .91
 
 
-
-* Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+* Logistic Regression Model(Resampled):
+OVERALL ACCURACY : .994
+(Healthy)
+* Precision : 1
+* Recall : .99
+(At-Risk)
+* Precision : .84
+* Recall : .99
 
 ## Summary
 
@@ -29,3 +40,5 @@ Summarize the results of the machine learning models, and include a recommendati
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
+
+Two logistic regression models were used in this challenge. Although both models performed very well, the Resampled LRM seems to perform best. with an overall accuracy of 99.4%. the Training LRM has an overall accuracy of 95.2%. Between both models, it's clear that they should be used to predict `0`'s and not `1`'s. Until either model's precision for at-risk loans increases, the bank will always be more confident in predicting healthy loans. As stated above, I recommend that the bank use the Logistic Regression Model with resampled training data rather tham the Logistic Training Model with original data due to the difference in overall accuracy (99.4% as opposed to 95.2%).
