@@ -15,21 +15,21 @@ In this section, describe the analysis you completed for the machine learning mo
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Logistic Regression Model(Training): 
-  OVERALL ACCURACY : .952
-  (Healthy)
+  * OVERALL ACCURACY : .952
+  * (Healthy)
   * Precision : 1
   * recall : .99
-  (At-Risk)
+  * (At-Risk)
   * Precision : .85
   * Recall : .91
 
 
 * Logistic Regression Model(Resampled):
-OVERALL ACCURACY : .994
-(Healthy)
+* OVERALL ACCURACY : .994
+* (Healthy)
 * Precision : 1
 * Recall : .99
-(At-Risk)
+* (At-Risk)
 * Precision : .84
 * Recall : .99
 
